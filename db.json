@@ -1,28 +1,11 @@
 {
-  "products": [
+  "posts": [
     {
       "id": 1,
-      "name": "hello",
-      "price": 19.99,
-      "image": "https://picsum.photos/200/300"
-    },
-    {
-      "id": 2,
-      "name": "hello",
-      "price": 19.99,
-      "image": "https://picsum.photos/200/300"
-    },
-    {
-      "id": 3,
-      "name": "hello",
-      "price": 19.99,
-      "image": "https://picsum.photos/200/300"
-    },
-    {
-      "id": 4,
-      "name": "hello",
-      "price": 19.99,
-      "image": "https://picsum.photos/200/300"
+      "title": "hello"
     }
-  ]
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
