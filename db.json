@@ -23,6 +23,6 @@
       "name": "hello",
       "price": 19.99,
       "image": "https://picsum.photos/200/300"
-    },
+    }
   ]
 }
