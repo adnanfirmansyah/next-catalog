@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+  }
+  
+  .gallery {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .details {
+    flex: 1;
+    padding-left: 2rem;
+  }
+  
+  .name {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    margin-bottom: 1rem;
+  }
+  
+  .variants {
+    margin-bottom: 1rem;
+  }
+  
+  .variants ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .variants li {
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .variants li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .addToCart {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addToCart:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .gallery {
+      margin-bottom: 2rem;
+    }
+  
+    .details {
+      padding-left: 0;
+    }
+  }
+  
+  
