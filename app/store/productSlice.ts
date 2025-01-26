@@ -1,20 +1,28 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { Product } from "../types/product";
 
 const productSlice = createSlice({
   name: "product",
   initialState: {
-    products: [],
-    selectedProduct: null, // Store the clicked product here
+    product: {
+      id: 0,
+      name: "",
+      price: 0,
+      image: "",
+      description: "",
+      images: [],
+      variants: [],
+    } as Product,
   },
   reducers: {
-    setProducts: (state, action) => {
-      state.products = action.payload;
-    },
-    selectProduct: (state, action) => {
-      state.selectedProduct = action.payload;
+    setProduct: (state, action) => {
+      state.product = action.payload;
     },
   },
 });
 
-export const { setProducts, selectProduct } = productSlice.actions;
+export const { setProduct } = productSlice.actions;
+export const selectProduct = (state: { product: { product: Product } }) =>
+  state.product.product;
+
 export default productSlice.reducer;

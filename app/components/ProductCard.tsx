@@ -5,13 +5,13 @@ import Image from "next/image"
 import styles from "./ProductCard.module.css"
 import { Product } from "../types/product"
 import { useDispatch } from 'react-redux';
-import { selectProduct } from '../store/productSlice';
+import { setProduct } from '../store/productSlice';
 
 const ProductCard: React.FC<Product> = (product) => {
   const dispatch = useDispatch();
 
   const handleProductClick = () => {
-    dispatch(selectProduct(product)); // Save the clicked product in Redux
+    dispatch(setProduct(product)); // Save the clicked product in Redux
   };
   return (
     <Link onClick={handleProductClick} href={`/product/${product.id}`} className={styles.card}>
