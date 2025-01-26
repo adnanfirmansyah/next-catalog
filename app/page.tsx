@@ -4,7 +4,7 @@ import { Product } from "./types/product"
 import { getProducts } from './services/products';
 
 export default async function Home() {
-  let products = await getProducts()
+  const products = await getProducts()
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Our Products</h1>
