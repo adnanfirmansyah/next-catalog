@@ -1,154 +1,104 @@
 {
   "products": [
     {
-      "createdAt": "2025-01-25T11:01:00.460Z",
-      "name": "Pants",
-      "image": "https://picsum.photos/640/480",
-      "price": "326.00",
-      "id": "1"
-    },
-    {
-      "createdAt": "2025-01-24T19:20:55.411Z",
-      "name": "Bacon",
-      "image": "https://picsum.photos/640/480",
-      "price": "832.00",
-      "id": "2"
-    },
-    {
-      "createdAt": "2025-01-25T13:38:55.138Z",
-      "name": "Bike",
-      "image": "https://picsum.photos/640/480",
-      "price": "669.00",
-      "id": "3"
-    },
-    {
-      "createdAt": "2025-01-25T00:43:57.185Z",
-      "name": "Mouse",
-      "image": "https://picsum.photos/640/480",
-      "price": "903.00",
-      "id": "4"
-    },
-    {
-      "createdAt": "2025-01-25T09:32:17.891Z",
-      "name": "Sausages",
-      "image": "https://picsum.photos/640/480",
-      "price": "344.00",
-      "id": "5"
-    },
-    {
-      "createdAt": "2025-01-25T13:40:54.505Z",
-      "name": "Cheese",
-      "image": "https://picsum.photos/640/480",
-      "price": "828.00",
-      "id": "6"
-    },
-    {
-      "createdAt": "2025-01-25T12:13:21.294Z",
-      "name": "Towels",
-      "image": "https://picsum.photos/640/480",
-      "price": "520.00",
-      "id": "7"
-    },
-    {
-      "createdAt": "2025-01-24T17:35:14.414Z",
-      "name": "Chicken",
-      "image": "https://picsum.photos/640/480",
-      "price": "540.00",
-      "id": "8"
-    },
-    {
-      "createdAt": "2025-01-25T01:53:49.458Z",
-      "name": "Sausages",
-      "image": "https://picsum.photos/640/480",
-      "price": "9.00",
-      "id": "9"
-    },
-    {
-      "createdAt": "2025-01-25T08:20:01.270Z",
-      "name": "Chicken",
-      "image": "https://picsum.photos/640/480",
-      "price": "717.00",
-      "id": "10"
-    },
-    {
-      "createdAt": "2025-01-24T20:32:10.026Z",
-      "name": "Hat",
-      "image": "https://picsum.photos/640/480",
-      "price": "283.00",
-      "id": "11"
-    },
-    {
-      "createdAt": "2025-01-25T08:23:25.352Z",
-      "name": "Computer",
-      "image": "https://picsum.photos/640/480",
-      "price": "240.00",
-      "id": "12"
-    },
-    {
-      "createdAt": "2025-01-24T19:36:36.874Z",
-      "name": "Computer",
-      "image": "https://picsum.photos/640/480",
-      "price": "41.00",
-      "id": "13"
-    },
-    {
-      "createdAt": "2025-01-25T02:25:50.546Z",
-      "name": "Chips",
-      "image": "https://picsum.photos/640/480",
-      "price": "297.00",
-      "id": "14"
-    },
-    {
-      "createdAt": "2025-01-25T09:48:42.387Z",
-      "name": "Chicken",
-      "image": "https://picsum.photos/640/480",
-      "price": "854.00",
-      "id": "15"
-    },
-    {
-      "createdAt": "2025-01-25T08:43:45.100Z",
-      "name": "Soap",
-      "image": "https://picsum.photos/640/480",
-      "price": "589.00",
-      "id": "16"
-    },
-    {
-      "createdAt": "2025-01-24T18:27:04.223Z",
-      "name": "Computer",
-      "image": "https://picsum.photos/640/480",
-      "price": "147.00",
-      "id": "17"
-    },
-    {
-      "createdAt": "2025-01-25T01:50:36.469Z",
-      "name": "Cheese",
-      "image": "https://picsum.photos/640/480",
-      "price": "878.00",
-      "id": "18"
-    },
-    {
-      "createdAt": "2025-01-24T14:14:58.062Z",
-      "name": "Towels",
-      "image": "https://picsum.photos/640/480",
-      "price": "740.00",
-      "id": "19"
-    },
-    {
       "createdAt": "2025-01-25T03:56:28.419Z",
       "name": "Cheese",
       "image": "https://picsum.photos/640/480",
+      "images": ["https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480"],
+      "variants": ["Small", "Medium", "Big"],
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "price": "346.00",
-      "id": "20"
+      "id": "1"
+    },
+    {
+      "createdAt": "2025-01-25T03:56:28.419Z",
+      "name": "Bread",
+      "image": "https://picsum.photos/640/480",
+      "images": ["https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480"],
+      "variants": ["Whole Grain", "White", "Multigrain"],
+      "description": "Freshly baked bread, perfect for your meals. Available in various types to suit your taste.",
+      "price": "120.50",
+      "id": "2"
+    },
+    {
+      "createdAt": "2025-01-25T03:56:28.419Z",
+      "name": "Milk",
+      "image": "https://picsum.photos/640/480",
+      "images": ["https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480"],
+      "variants": ["Full Cream", "Low Fat", "Skimmed"],
+      "description": "High-quality milk for your daily nutrition. Choose from our different fat levels to match your diet.",
+      "price": "80.00",
+      "id": "3"
+    },
+    {
+      "createdAt": "2025-01-25T03:56:28.419Z",
+      "name": "Butter",
+      "image": "https://picsum.photos/640/480",
+      "images": ["https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480"],
+      "variants": ["Salted", "Unsalted"],
+      "description": "Rich and creamy butter to enhance the flavor of your dishes. Available in salted and unsalted varieties.",
+      "price": "200.00",
+      "id": "4"
+    },
+    {
+      "createdAt": "2025-01-25T03:56:28.419Z",
+      "name": "Yogurt",
+      "image": "https://picsum.photos/640/480",
+      "images": ["https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480"],
+      "variants": ["Strawberry", "Blueberry", "Plain"],
+      "description": "Delicious and healthy yogurt in a variety of flavors to keep you refreshed and energized.",
+      "price": "60.00",
+      "id": "5"
+    },
+    {
+      "createdAt": "2025-01-25T03:56:28.419Z",
+      "name": "Eggs",
+      "image": "https://picsum.photos/640/480",
+      "images": ["https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480"],
+      "variants": ["Free Range", "Cage-Free", "Organic"],
+      "description": "Fresh eggs sourced from the best farms to give you top-quality nutrition every day.",
+      "price": "150.00",
+      "id": "6"
+    },
+    {
+      "createdAt": "2025-01-25T03:56:28.419Z",
+      "name": "Chocolate",
+      "image": "https://picsum.photos/640/480",
+      "images": ["https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480"],
+      "variants": ["Milk Chocolate", "Dark Chocolate", "White Chocolate"],
+      "description": "Rich and indulgent chocolate to satisfy your cravings. Choose your favorite type.",
+      "price": "250.00",
+      "id": "7"
+    },
+    {
+      "createdAt": "2025-01-25T03:56:28.419Z",
+      "name": "Coffee",
+      "image": "https://picsum.photos/640/480",
+      "images": ["https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480"],
+      "variants": ["Espresso", "Latte", "Cappuccino"],
+      "description": "Premium coffee beans roasted to perfection for the ultimate coffee experience.",
+      "price": "500.00",
+      "id": "8"
+    },
+    {
+      "createdAt": "2025-01-25T03:56:28.419Z",
+      "name": "Tea",
+      "image": "https://picsum.photos/640/480",
+      "images": ["https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480"],
+      "variants": ["Green Tea", "Black Tea", "Herbal Tea"],
+      "description": "A soothing collection of teas to refresh your mind and soul. Pick your favorite blend.",
+      "price": "300.00",
+      "id": "9"
+    },
+    {
+      "createdAt": "2025-01-25T03:56:28.419Z",
+      "name": "Juice",
+      "image": "https://picsum.photos/640/480",
+      "images": ["https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480"],
+      "variants": ["Orange", "Apple", "Mango"],
+      "description": "Freshly squeezed juices from the best fruits to keep you hydrated and refreshed.",
+      "price": "180.00",
+      "id": "10"
     }
-  ],
-  "product": {
-    "createdAt": "2025-01-25T03:56:28.419Z",
-    "name": "Cheese",
-    "image": "https://picsum.photos/640/480",
-    "images": [ "https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480", "https://picsum.photos/640/480"],
-    "variants": [ "Small", "Medium", "Big" ],
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    "price": "346.00",
-    "id": "20"
-  }
+  ]
 }
